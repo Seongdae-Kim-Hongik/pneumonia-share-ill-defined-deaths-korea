@@ -1,0 +1,746 @@
+{
+ "almirall2017risk": {
+  "type": "journal",
+  "authors": [
+   "Almirall J",
+   "Serra-Prat M",
+   "Bolíbar I",
+   "Balasso V"
+  ],
+  "title": "Risk factors for community-acquired pneumonia in adults: a systematic review of observational studies",
+  "journal": "Respiration",
+  "year": 2017,
+  "vol": "94",
+  "issue": "3",
+  "pages": "299-311",
+  "doi": "10.1159/000479089",
+  "pmid": "28738364",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "baskaran2019effect": {
+  "type": "journal",
+  "authors": [
+   "Baskaran V",
+   "Murray RL",
+   "Hunter A",
+   "Lim WS",
+   "McKeever TM"
+  ],
+  "title": "Effect of tobacco smoking on the risk of developing community acquired pneumonia: a systematic review and meta-analysis",
+  "journal": "PLoS One",
+  "year": 2019,
+  "vol": "14",
+  "issue": "7",
+  "pages": "e0220204",
+  "doi": "10.1371/journal.pone.0220204",
+  "pmid": "31318967",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "bernardinelli1995bayesian": {
+  "type": "journal",
+  "authors": [
+   "Bernardinelli L",
+   "Clayton D",
+   "Pascutto C",
+   "Montomoli C",
+   "Ghislandi M",
+   "Songini M"
+  ],
+  "title": "Bayesian analysis of space-time variation in disease risk",
+  "journal": "Stat Med",
+  "year": 1995,
+  "vol": "14",
+  "issue": "21-22",
+  "pages": "2433-2443",
+  "doi": "10.1002/sim.4780142112",
+  "pmid": "8711279",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "chang2019long": {
+  "type": "journal",
+  "authors": [
+   "Chang Y",
+   "Kang HY",
+   "Lim D",
+   "Cho HJ",
+   "Khang YH"
+  ],
+  "title": "Long-term trends in smoking prevalence and its socioeconomic inequalities in Korea, 1992-2016",
+  "journal": "Int J Equity Health",
+  "year": 2019,
+  "vol": "18",
+  "issue": "1",
+  "pages": "148",
+  "doi": "10.1186/s12939-019-1051-x",
+  "pmid": "31533732",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "cheong2022cigarette": {
+  "type": "journal",
+  "authors": [
+   "Cheong HS",
+   "Chang Y",
+   "Joo EJ",
+   "Ryu S"
+  ],
+  "title": "Cigarette smoking and risk of infection-related mortality: a cohort study",
+  "journal": "Nicotine Tob Res",
+  "year": 2022,
+  "vol": "24",
+  "issue": "2",
+  "pages": "204-211",
+  "doi": "10.1093/ntr/ntab169",
+  "pmid": "34432023",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "chung2022factors": {
+  "type": "journal",
+  "authors": [
+   "Chung S",
+   "Kim SH",
+   "Park BJ",
+   "Park S"
+  ],
+  "title": "Factors associated with major errors on death certificates",
+  "journal": "Healthcare (Basel)",
+  "year": 2022,
+  "vol": "10",
+  "issue": "4",
+  "pages": "726",
+  "doi": "10.3390/healthcare10040726",
+  "pmid": "35455903",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "foreman2016improving": {
+  "type": "journal",
+  "authors": [
+   "Foreman KJ",
+   "Naghavi M",
+   "Ezzati M"
+  ],
+  "title": "Improving the usefulness of US mortality data: new methods for reclassification of underlying cause of death",
+  "journal": "Popul Health Metr",
+  "year": 2016,
+  "vol": "14",
+  "issue": "",
+  "pages": "14",
+  "doi": "10.1186/s12963-016-0082-4",
+  "pmid": "27127419",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "gbd2020prevalence": {
+  "type": "journal",
+  "authors": [
+   "GBD Chronic Respiratory Disease Collaborators"
+  ],
+  "title": "Prevalence and attributable health burden of chronic respiratory diseases, 1990-2017: a systematic analysis for the Global Burden of Disease Study 2017",
+  "journal": "Lancet Respir Med",
+  "year": 2020,
+  "vol": "8",
+  "issue": "6",
+  "pages": "585-596",
+  "doi": "10.1016/S2213-2600(20)30105-3",
+  "pmid": "32526187",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "goldacre2004mortality": {
+  "type": "journal",
+  "authors": [
+   "Goldacre MJ",
+   "Duncan M",
+   "Cook-Mozaffari P",
+   "Griffith M"
+  ],
+  "title": "Mortality rates for common respiratory diseases in an English population 1979-1998: artefact and substantive trends",
+  "journal": "J Public Health (Oxf)",
+  "year": 2004,
+  "vol": "26",
+  "issue": "1",
+  "pages": "8-12",
+  "doi": "10.1093/pubmed/fdh099",
+  "pmid": "15044566",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "greenland1989ecological": {
+  "type": "journal",
+  "authors": [
+   "Greenland S",
+   "Morgenstern H"
+  ],
+  "title": "Ecological bias, confounding, and effect modification",
+  "journal": "Int J Epidemiol",
+  "year": 1989,
+  "vol": "18",
+  "issue": "1",
+  "pages": "269-274",
+  "doi": "10.1093/ije/18.1.269",
+  "pmid": "2656561",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "hansell2003what": {
+  "type": "journal",
+  "authors": [
+   "Hansell AL",
+   "Walk JA",
+   "Soriano JB"
+  ],
+  "title": "What do chronic obstructive pulmonary disease patients die from? A multiple cause coding analysis",
+  "journal": "Eur Respir J",
+  "year": 2003,
+  "vol": "22",
+  "issue": "5",
+  "pages": "809-814",
+  "doi": "10.1183/09031936.03.00031403",
+  "pmid": "14621089",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "inskip1983methods": {
+  "type": "journal",
+  "authors": [
+   "Inskip H",
+   "Beral V",
+   "Fraser P",
+   "Haskey J"
+  ],
+  "title": "Methods for age-adjustment of rates",
+  "journal": "Stat Med",
+  "year": 1983,
+  "vol": "2",
+  "issue": "4",
+  "pages": "455-466",
+  "doi": "10.1002/sim.4780020404",
+  "pmid": "6672943",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "kang2015korea": {
+  "type": "journal",
+  "authors": [
+   "Kang YW",
+   "Ko YS",
+   "Kim YJ",
+   "Sung KM",
+   "Kim HJ",
+   "Choi HY",
+   "Sung C",
+   "Jeong E"
+  ],
+  "title": "Korea Community Health Survey data profiles",
+  "journal": "Osong Public Health Res Perspect",
+  "year": 2015,
+  "vol": "6",
+  "issue": "3",
+  "pages": "211-217",
+  "doi": "10.1016/j.phrp.2015.05.003",
+  "pmid": "26430619",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "kim2024death": {
+  "type": "journal",
+  "authors": [
+   "Kim JJ",
+   "Kim SH",
+   "Chung S",
+   "Park BJ",
+   "Park S",
+   "Park SY"
+  ],
+  "title": "Do death certificate errors decrease as clinical experience in an emergency department increases?",
+  "journal": "J Korean Med Sci",
+  "year": 2024,
+  "vol": "39",
+  "issue": "7",
+  "pages": "e62",
+  "doi": "10.3346/jkms.2024.39.e62",
+  "pmid": "38412609",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "kim2024national": {
+  "type": "journal",
+  "authors": [
+   "Kim SH",
+   "Park JE",
+   "Yang B",
+   "Kim SY",
+   "Kim YY",
+   "Park JH"
+  ],
+  "title": "National trend in the prevalence and mortality of COPD in South Korea from 2008 to 2017",
+  "journal": "BMJ Open Respir Res",
+  "year": 2024,
+  "vol": "11",
+  "issue": "1",
+  "pages": "e002391",
+  "doi": "10.1136/bmjresp-2024-002391",
+  "pmid": "38897613",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "kim2026long": {
+  "type": "journal",
+  "authors": [
+   "Kim H",
+   "Shin S"
+  ],
+  "title": "Long-term care hospitals as end-of-life care settings in South Korea: a nationwide analysis of utilization patterns and clinical trajectories",
+  "journal": "PLoS One",
+  "year": 2026,
+  "vol": "21",
+  "issue": "7",
+  "pages": "e0354271",
+  "doi": "10.1371/journal.pone.0354271",
+  "pmid": "42497224",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "knorrheld2000bayesian": {
+  "type": "journal",
+  "authors": [
+   "Knorr-Held L"
+  ],
+  "title": "Bayesian modelling of inseparable space-time variation in disease risk",
+  "journal": "Stat Med",
+  "year": 2000,
+  "vol": "19",
+  "issue": "17-18",
+  "pages": "2555-2567",
+  "doi": "10.1002/1097-0258(20000915/30)19:17/18<2555::aid-sim587>3.0.co;2-#",
+  "pmid": "10960871",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "lederer2019control": {
+  "type": "journal",
+  "authors": [
+   "Lederer DJ",
+   "Bell SC",
+   "Branson RD",
+   "Chalmers JD",
+   "Marshall R",
+   "Maslove DM",
+   "Ost DE",
+   "Punjabi NM",
+   "Schatz M",
+   "Smyth AR",
+   "Stewart PW",
+   "Suissa S",
+   "Adjei AA",
+   "Akdis CA",
+   "Azoulay É",
+   "Bakker J",
+   "Ballas ZK",
+   "Bardin PG",
+   "Barreiro E",
+   "Bellomo R",
+   "Bernstein JA",
+   "Brusasco V",
+   "Buchman TG",
+   "Chokroverty S",
+   "Collop NA",
+   "Crapo JD",
+   "Fitzgerald DA",
+   "Hale L",
+   "Hart N",
+   "Herth FJ",
+   "Iwashyna TJ",
+   "Jenkins G",
+   "Kolb M",
+   "Marks GB",
+   "Mazzone P",
+   "Moorman JR",
+   "Murphy TM",
+   "Noah TL",
+   "Reynolds P",
+   "Riemann D",
+   "Russell RE",
+   "Sheikh A",
+   "Sotgiu G",
+   "Swenson ER",
+   "Szczesniak R",
+   "Szymusiak R",
+   "Teboul JL",
+   "Vincent JL"
+  ],
+  "title": "Control of confounding and reporting of results in causal inference studies. Guidance for authors from editors of respiratory, sleep, and critical care journals",
+  "journal": "Ann Am Thorac Soc",
+  "year": 2019,
+  "vol": "16",
+  "issue": "1",
+  "pages": "22-28",
+  "doi": "10.1513/AnnalsATS.201808-564PS",
+  "pmid": "30230362",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "lee2018place": {
+  "type": "journal",
+  "authors": [
+   "Lee JK",
+   "Jang SN"
+  ],
+  "title": "Place of death and associated gender difference in Korea 2006-2014: evidence from exit interviews of the Korean Longitudinal Study of Ageing",
+  "journal": "Arch Gerontol Geriatr",
+  "year": 2018,
+  "vol": "78",
+  "issue": "",
+  "pages": "196-202",
+  "doi": "10.1016/j.archger.2018.07.006",
+  "pmid": "30006212",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "lindberg2021large": {
+  "type": "journal",
+  "authors": [
+   "Lindberg A",
+   "Lindberg L",
+   "Sawalha S",
+   "Nilsson U",
+   "Stridsman C",
+   "Lundbäck B",
+   "Backman H"
+  ],
+  "title": "Large underreporting of COPD as cause of death-results from a population-based cohort study",
+  "journal": "Respir Med",
+  "year": 2021,
+  "vol": "186",
+  "issue": "",
+  "pages": "106518",
+  "doi": "10.1016/j.rmed.2021.106518",
+  "pmid": "34217049",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "lipsitch2010negative": {
+  "type": "journal",
+  "authors": [
+   "Lipsitch M",
+   "Tchetgen Tchetgen E",
+   "Cohen T"
+  ],
+  "title": "Negative controls: a tool for detecting confounding and bias in observational studies",
+  "journal": "Epidemiology",
+  "year": 2010,
+  "vol": "21",
+  "issue": "3",
+  "pages": "383-388",
+  "doi": "10.1097/EDE.0b013e3181d61eeb",
+  "pmid": "20335814",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "lopezcampos2014mortality": {
+  "type": "journal",
+  "authors": [
+   "López-Campos JL",
+   "Ruiz-Ramos M",
+   "Soriano JB"
+  ],
+  "title": "Mortality trends in chronic obstructive pulmonary disease in Europe, 1994-2010: a joinpoint regression analysis",
+  "journal": "Lancet Respir Med",
+  "year": 2014,
+  "vol": "2",
+  "issue": "1",
+  "pages": "54-62",
+  "doi": "10.1016/S2213-2600(13)70232-7",
+  "pmid": "24461902",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "mannino1997obstructive": {
+  "type": "journal",
+  "authors": [
+   "Mannino DM",
+   "Brown C",
+   "Giovino GA"
+  ],
+  "title": "Obstructive lung disease deaths in the United States from 1979 through 1993. An analysis using multiple-cause mortality data",
+  "journal": "Am J Respir Crit Care Med",
+  "year": 1997,
+  "vol": "156",
+  "issue": "3 Pt 1",
+  "pages": "814-818",
+  "doi": "10.1164/ajrccm.156.3.9702026",
+  "pmid": "9309998",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "mieno2016accuracy": {
+  "type": "journal",
+  "authors": [
+   "Mieno MN",
+   "Tanaka N",
+   "Arai T",
+   "Kawahara T",
+   "Kuchiba A",
+   "Ishikawa S",
+   "Sawabe M"
+  ],
+  "title": "Accuracy of death certificates and assessment of factors for misclassification of underlying cause of death",
+  "journal": "J Epidemiol",
+  "year": 2016,
+  "vol": "26",
+  "issue": "4",
+  "pages": "191-198",
+  "doi": "10.2188/jea.JE20150010",
+  "pmid": "26639750",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "naghavi2010algorithms": {
+  "type": "journal",
+  "authors": [
+   "Naghavi M",
+   "Makela S",
+   "Foreman K",
+   "O'Brien J",
+   "Pourmalek F",
+   "Lozano R"
+  ],
+  "title": "Algorithms for enhancing public health utility of national causes-of-death data",
+  "journal": "Popul Health Metr",
+  "year": 2010,
+  "vol": "8",
+  "issue": "",
+  "pages": "9",
+  "doi": "10.1186/1478-7954-8-9",
+  "pmid": "20459720",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "oh2025cause": {
+  "type": "journal",
+  "authors": [
+   "Oh JH",
+   "Seo J",
+   "Park HJ"
+  ],
+  "title": "Cause of death statistics in 2022 in the Republic of Korea",
+  "journal": "Ewha Med J",
+  "year": 2025,
+  "vol": "48",
+  "issue": "3",
+  "pages": "e46",
+  "doi": "10.12771/emj.2025.00689",
+  "pmid": "40739971",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "park2022application": {
+  "type": "journal",
+  "authors": [
+   "Park S",
+   "Kim SH"
+  ],
+  "title": "Does the application of International Classification of Disease codes for the cause of death on death certificates reduce garbage codes?",
+  "journal": "Inquiry",
+  "year": 2022,
+  "vol": "59",
+  "issue": "",
+  "pages": "469580221081433",
+  "doi": "10.1177/00469580221081433",
+  "pmid": "35384751",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "riebler2016intuitive": {
+  "type": "journal",
+  "authors": [
+   "Riebler A",
+   "Sørbye SH",
+   "Simpson D",
+   "Rue H"
+  ],
+  "title": "An intuitive Bayesian spatial model for disease mapping that accounts for scaling",
+  "journal": "Stat Methods Med Res",
+  "year": 2016,
+  "vol": "25",
+  "issue": "4",
+  "pages": "1145-1165",
+  "doi": "10.1177/0962280216660421",
+  "pmid": "27566770",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "sin2026clinical": {
+  "type": "journal",
+  "authors": [
+   "Sin S",
+   "Kim HJ",
+   "Park D",
+   "Joh JS",
+   "Jeong I",
+   "Yeon LJ",
+   "Kim J",
+   "Kim J",
+   "Kim SJ",
+   "Chung SJ",
+   "Sim JA"
+  ],
+  "title": "Clinical outcomes and healthcare utilization in very elderly patients with pneumonia: an analysis of Korean National Health Insurance claims database",
+  "journal": "Sci Rep",
+  "year": 2026,
+  "vol": "16",
+  "issue": "",
+  "pages": "30968",
+  "doi": "10.1038/s41598-026-54170-3",
+  "pmid": "42248943",
+  "verified": "Crossref 2026-11-18"
+ },
+ "steegen2016increasing": {
+  "type": "journal",
+  "authors": [
+   "Steegen S",
+   "Tuerlinckx F",
+   "Gelman A",
+   "Vanpaemel W"
+  ],
+  "title": "Increasing transparency through a multiverse analysis",
+  "journal": "Perspect Psychol Sci",
+  "year": 2016,
+  "vol": "11",
+  "issue": "5",
+  "pages": "702-712",
+  "doi": "10.1177/1745691616658637",
+  "pmid": "27694465",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "tai2022changes": {
+  "type": "journal",
+  "authors": [
+   "Tai SY",
+   "Cheon S",
+   "Yamaoka Y",
+   "Chien YW",
+   "Lu TH"
+  ],
+  "title": "Changes in the rankings of leading causes of death in Japan, Korea, and Taiwan from 1998 to 2018: a comparison of three ranking lists",
+  "journal": "BMC Public Health",
+  "year": 2022,
+  "vol": "22",
+  "issue": "1",
+  "pages": "926",
+  "doi": "10.1186/s12889-022-13278-7",
+  "pmid": "35538508",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "thun2012stages": {
+  "type": "journal",
+  "authors": [
+   "Thun M",
+   "Peto R",
+   "Boreham J",
+   "Lopez AD"
+  ],
+  "title": "Stages of the cigarette epidemic on entering its second century",
+  "journal": "Tob Control",
+  "year": 2012,
+  "vol": "21",
+  "issue": "2",
+  "pages": "96-101",
+  "doi": "10.1136/tobaccocontrol-2011-050294",
+  "pmid": "22345230",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "vonelm2007strengthening": {
+  "type": "journal",
+  "authors": [
+   "von Elm E",
+   "Altman DG",
+   "Egger M",
+   "Pocock SJ",
+   "Gøtzsche PC",
+   "Vandenbroucke JP"
+  ],
+  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies",
+  "journal": "Lancet",
+  "year": 2007,
+  "vol": "370",
+  "issue": "9596",
+  "pages": "1453-1457",
+  "doi": "10.1016/S0140-6736(07)61602-X",
+  "pmid": "18064739",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "yun2026patient": {
+  "type": "journal",
+  "authors": [
+   "Yun JH",
+   "Ki HK",
+   "Park J"
+  ],
+  "title": "Patient- and facility-level factors associated with long-term care facility-acquired pneumonia and mortality in Korea",
+  "journal": "J Am Med Dir Assoc",
+  "year": 2026,
+  "vol": "27",
+  "issue": "12",
+  "pages": "106506",
+  "doi": "10.1016/j.jamda.2026.106506",
+  "pmid": "42966142",
+  "verified": "PubMed esummary 2026-11-12"
+ },
+ "bell2015explaining": {
+  "type": "journal",
+  "authors": [
+   "Bell A",
+   "Jones K"
+  ],
+  "title": "Explaining fixed effects: random effects modeling of time-series cross-sectional and panel data",
+  "journal": "Polit Sci Res Methods",
+  "year": 2015,
+  "vol": "3",
+  "issue": "1",
+  "pages": "133-153",
+  "doi": "10.1017/psrm.2014.7",
+  "verified": "Crossref 2026-11-12"
+ },
+ "rue2009approximate": {
+  "type": "journal",
+  "authors": [
+   "Rue H",
+   "Martino S",
+   "Chopin N"
+  ],
+  "title": "Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations",
+  "journal": "J R Stat Soc Series B Stat Methodol",
+  "year": 2009,
+  "vol": "71",
+  "issue": "2",
+  "pages": "319-392",
+  "doi": "10.1111/j.1467-9868.2008.00700.x",
+  "verified": "Crossref 2026-11-12"
+ },
+ "simpson2017penalising": {
+  "type": "journal",
+  "authors": [
+   "Simpson D",
+   "Rue H",
+   "Riebler A",
+   "Martins TG",
+   "Sørbye SH"
+  ],
+  "title": "Penalising model component complexity: a principled, practical approach to constructing priors",
+  "journal": "Stat Sci",
+  "year": 2017,
+  "vol": "32",
+  "issue": "1",
+  "pages": "1-28",
+  "doi": "10.1214/16-STS576",
+  "verified": "Crossref 2026-11-12"
+ },
+ "web:kostat2026cause": {
+  "type": "web",
+  "authors": "Statistics Korea",
+  "title": "Causes of death statistics: deaths by cause (104 items), sex and administrative district (DT_1B34E13) and by cause, sex and 5-year age group (DT_1B34E01), 2011-2024. Korean Statistical Information Service",
+  "url": "https://kosis.kr",
+  "year": 2026,
+  "accessed": "12 November 2026"
+ },
+ "web:rcore2026": {
+  "type": "web",
+  "authors": "R Core Team",
+  "title": "R: a language and environment for statistical computing. Version 4.6.0. Vienna: R Foundation for Statistical Computing",
+  "url": "https://www.R-project.org/",
+  "year": 2026,
+  "accessed": "12 November 2026"
+ },
+ "williams1982extra": {
+  "type": "journal",
+  "authors": [
+   "Williams DA"
+  ],
+  "title": "Extra-binomial variation in logistic linear models",
+  "journal": "J R Stat Soc Ser C Appl Stat",
+  "year": 1982,
+  "vol": "31",
+  "issue": "2",
+  "pages": "144-153",
+  "doi": "10.2307/2347977",
+  "verified": "Crossref 2026-11-12"
+ }
+}

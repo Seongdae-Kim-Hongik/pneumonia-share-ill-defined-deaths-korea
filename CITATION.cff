@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Pneumonia share of pneumonia and chronic lower respiratory disease deaths in South Korea rises with ill-defined causes within districts (analysis code)"
+authors:
+  - family-names: Kim
+    given-names: Seongdae
+    affiliation: Hongik University
+version: "1.0.0"
+date-released: 2026-11-18
+license: MIT
+repository-code: "https://github.com/Seongdae-Kim-Hongik/pneumonia-share-ill-defined-deaths-korea"

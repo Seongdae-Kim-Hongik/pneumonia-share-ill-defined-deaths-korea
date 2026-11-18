@@ -1,0 +1,135 @@
+{
+ "tag": "RESP",
+ "outcome_column": "mort__폐렴_deaths",
+ "outcome_label_en": "Pneumonia (J12-J18) deaths as a share of pneumonia plus chronic lower respiratory disease (J40-J47) deaths (Statistics Korea cause-of-death statistics, annual, place of residence)",
+ "disease_en": "Cause composition of respiratory mortality (pneumonia vs chronic lower respiratory disease)",
+ "disease_ko": "호흡기 사망의 사인 구성(폐렴 대 만성하기도질환)",
+ "forced": [
+  "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구",
+  "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)",
+  "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)",
+  "eloc__DT_1YL20891__재정자주도(세입과목개편전)",
+  "ext__pop80_share"
+ ],
+ "negative_controls": [
+  "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)",
+  "eloc__DT_1YL20331__지수__계",
+  "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)"
+ ],
+ "offset_E_column": "E_std2",
+ "offset_E_file": "PNEU_Estd2.csv",
+ "offset_E_label": "age-structure expected pneumonia share p0 = E_P/(E_P+E_C) from 14호·E_std2 (18 bands to 85+, national year-specific cause rates); binomial offset = logit(p0) — 80 builder carries E_P only",
+ "graph": "593-edge contact graph, ST_GRAPH=04_분석/RESP/graph_593.graph",
+ "population_override": [
+  {
+   "year": 2023,
+   "fbd_region": "경상남도창원시",
+   "population": 1009038,
+   "source": "KOSIS DT_1YL20651E 2023 통합창원시 계; FBD_DATA_ZIP/2023.csv 창원 블록이 2022값 복사(유방암 11/4 population_final_audit)"
+  }
+ ],
+ "sensitivity_only_extra": [
+  "ext__outside_care_share"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "ext__ill_defined_share",
+   "ext__ltc_hospitals_per100k_65",
+   "ext__im_specialists_per100k",
+   "kchs__DT_H_SM__SR",
+   "chk__질환의심_폐결핵_수검자대비비율",
+   "kchs__DT_INFLUENZA__SR",
+   "kchs__DT_H_OR_INCONV__SR",
+   "ext__basic_livelihood_rate",
+   "kchs__DT_H_EX_WALK__SR",
+   "kchs__DT_H_EX_PHY__SR",
+   "fac__total"
+  ],
+  "S2_certification": [
+   "ext__ill_defined_share",
+   "ext__ltc_hospitals_per100k_65",
+   "ext__im_specialists_per100k"
+  ],
+  "S3_epidemiology": [
+   "kchs__DT_H_SM__SR",
+   "chk__질환의심_폐결핵_수검자대비비율",
+   "kchs__DT_INFLUENZA__SR",
+   "kchs__DT_H_OR_INCONV__SR",
+   "ext__basic_livelihood_rate"
+  ],
+  "S4_activity": [
+   "kchs__DT_H_EX_WALK__SR",
+   "kchs__DT_H_EX_PHY__SR",
+   "fac__total"
+  ]
+ },
+ "transform": {
+  "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구": "share_of_pop(도시지역인구÷population(마스터))",
+  "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)": "none",
+  "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL20891__재정자주도(세입과목개편전)": "none",
+  "ext__pop80_share": "none",
+  "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL20331__지수__계": "none",
+  "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)": "none",
+  "ext__ill_defined_share": "none",
+  "ext__ltc_hospitals_per100k_65": "none",
+  "ext__im_specialists_per100k": "none",
+  "kchs__DT_H_SM__SR": "none",
+  "chk__질환의심_폐결핵_수검자대비비율": "none",
+  "kchs__DT_INFLUENZA__SR": "none",
+  "kchs__DT_H_OR_INCONV__SR": "none",
+  "ext__basic_livelihood_rate": "none",
+  "kchs__DT_H_EX_WALK__SR": "none",
+  "kchs__DT_H_EX_PHY__SR": "none",
+  "fac__total": "per100k",
+  "ext__outside_care_share": "none"
+ },
+ "expected_direction": {
+  "ext__ill_defined_share": "+",
+  "ext__ltc_hospitals_per100k_65": "+",
+  "ext__im_specialists_per100k": "-",
+  "kchs__DT_H_SM__SR": "-",
+  "chk__질환의심_폐결핵_수검자대비비율": "-",
+  "kchs__DT_INFLUENZA__SR": "-",
+  "kchs__DT_H_OR_INCONV__SR": "+",
+  "ext__basic_livelihood_rate": "±",
+  "kchs__DT_H_EX_WALK__SR": "-",
+  "kchs__DT_H_EX_PHY__SR": "-",
+  "fac__total": "-"
+ },
+ "rules": {
+  "likelihood": "forced-only 모형 WAIC 낮은 쪽(binomial/betabinomial)",
+  "credible": "95% CrI 1 제외(OR)",
+  "vif_drop": 10,
+  "multiverse_specs": 200,
+  "main_model_note": "주모형 = S1_narrative_full(가설 11 + 강제 5), 이항 로짓, offset logit(p0). M2 = M1 + 공간 구조 지역 기울기(이동 속도, 주결과). M3 = M1 + 기준선(2011-13) 가설 변수 × 시간. 세트를 다시 바꾸지 않음. VIF>10 유지·보고."
+ },
+ "note": "Outcome: pneumonia (J12-J18) deaths out of pneumonia plus chronic lower respiratory disease (J40-J47) deaths, offset by the age-expected composition. Characteristics: certification practice (ill-defined cause share, long-term care hospitals, internal medicine specialists), disease epidemiology (current smoking, suspected tuberculosis, influenza vaccination, chewing discomfort), deprivation (basic livelihood recipients) and physical activity (walking, moderate physical activity, public sports facilities); five forced controls; negative control exposures hit-and-run crashes, traffic culture index and fires.",
+ "extra_columns": {
+  "ext__pop80_share": [
+   "PNEU_Estd2.csv",
+   "pop80_share_raw"
+  ],
+  "ext__basic_livelihood_rate": [
+   "EXT_canonical_pool_RESP_261112.csv",
+   "basic_livelihood_rate"
+  ],
+  "ext__ltc_hospitals_per100k_65": [
+   "EXT_canonical_pool_RESP_261112.csv",
+   "ltc_hospitals_per100k_65"
+  ],
+  "ext__im_specialists_per100k": [
+   "EXT_canonical_pool_RESP_261112.csv",
+   "im_specialists_per100k"
+  ],
+  "ext__ill_defined_share": [
+   "EXT_canonical_pool_RESP_261112.csv",
+   "ill_defined_share"
+  ],
+  "ext__outside_care_share": [
+   "EXT_canonical_pool_261106.csv",
+   "outside_care_share"
+  ]
+ }
+}

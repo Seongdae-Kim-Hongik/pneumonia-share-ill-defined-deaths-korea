@@ -1,0 +1,388 @@
+{
+ "tag": "RESP",
+ "outcome_column": "mort__폐렴_deaths",
+ "outcome_label_en": "Pneumonia (J12-J18) deaths as a share of pneumonia plus chronic lower respiratory disease (J40-J47) deaths (Statistics Korea cause-of-death statistics, annual, place of residence)",
+ "disease_ko": "호흡기 사망의 사인 구성(폐렴 대 만성하기도질환)",
+ "disease_en": "Cause composition of respiratory mortality (pneumonia vs chronic lower respiratory disease)",
+ "forced": [
+  "urban_population_share",
+  "physicians_per_1000",
+  "sex_ratio",
+  "fiscal_independence",
+  "pop80_share"
+ ],
+ "candidates": [
+  "ill_defined_death_share",
+  "ltc_hospitals_per_100k_65",
+  "im_specialists_per_100k",
+  "current_smoking_rate",
+  "tb_suspected_screening",
+  "influenza_vaccination_rate",
+  "chewing_discomfort_rate_65plus",
+  "basic_livelihood_rate",
+  "walking_practice_rate",
+  "moderate_pa_rate",
+  "public_sports_facilities_per_100k"
+ ],
+ "negative_controls": [
+  "hit_and_run_rate",
+  "traffic_culture_index",
+  "fires_per_10000"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "ill_defined_death_share",
+   "ltc_hospitals_per_100k_65",
+   "im_specialists_per_100k",
+   "current_smoking_rate",
+   "tb_suspected_screening",
+   "influenza_vaccination_rate",
+   "chewing_discomfort_rate_65plus",
+   "basic_livelihood_rate",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k"
+  ],
+  "S2_certification": [
+   "ill_defined_death_share",
+   "ltc_hospitals_per_100k_65",
+   "im_specialists_per_100k"
+  ],
+  "S3_epidemiology": [
+   "current_smoking_rate",
+   "tb_suspected_screening",
+   "influenza_vaccination_rate",
+   "chewing_discomfort_rate_65plus",
+   "basic_livelihood_rate"
+  ],
+  "S4_activity": [
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k"
+  ],
+  "S1b_obesity_sensitivity": [
+   "ill_defined_death_share",
+   "ltc_hospitals_per_100k_65",
+   "im_specialists_per_100k",
+   "current_smoking_rate",
+   "tb_suspected_screening",
+   "influenza_vaccination_rate",
+   "chewing_discomfort_rate_65plus",
+   "basic_livelihood_rate",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "obesity_rate"
+  ]
+ },
+ "sensitivity_sets": [
+  "S1b_obesity_sensitivity"
+ ],
+ "sensitivity_only_vars": [
+  "obesity_rate",
+  "outside_care_share"
+ ],
+ "offset_column": "population",
+ "offset_sensitivity": null,
+ "offset_fallback": null,
+ "exclude_years": [],
+ "vars": {
+  "urban_population_share": {
+   "key": "urban_population_share",
+   "column": "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구",
+   "transform": "pct_of_pop",
+   "label_en": "Urban-zone population share (%)",
+   "label_ko": "도시지역 인구 비율",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구"
+  },
+  "physicians_per_1000": {
+   "key": "physicians_per_1000",
+   "column": "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)",
+   "transform": "none",
+   "label_en": "Physicians per 1000",
+   "label_ko": "인구 천명당 의사 수",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)"
+  },
+  "sex_ratio": {
+   "key": "sex_ratio",
+   "column": "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)",
+   "transform": "none",
+   "label_en": "Sex ratio (men per 100 women)",
+   "label_ko": "남녀성비",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)"
+  },
+  "fiscal_independence": {
+   "key": "fiscal_independence",
+   "column": "eloc__DT_1YL20891__재정자주도(세입과목개편전)",
+   "transform": "none",
+   "label_en": "Fiscal independence (%)",
+   "label_ko": "재정자주도",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20891__재정자주도(세입과목개편전)"
+  },
+  "pop80_share": {
+   "key": "pop80_share",
+   "column": "ext__pop80_share",
+   "transform": "none",
+   "label_en": "Population aged 80+ share (%)",
+   "label_ko": "80세 이상 인구 비율",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "ext__pop80_share"
+  },
+  "ill_defined_death_share": {
+   "key": "ill_defined_death_share",
+   "column": "ext__ill_defined_share",
+   "transform": "none",
+   "label_en": "Ill-defined cause-of-death share (R00-R99, %)",
+   "label_ko": "불명확 사인 사망 비율(R00-R99)",
+   "expected_direction": "+ (사망진단 관행: 불명확 사인이 많은 곳은 말기 사인인 폐렴을 원사인으로 적기 쉬움)",
+   "role": "candidate",
+   "raw_key": "ext__ill_defined_share"
+  },
+  "ltc_hospitals_per_100k_65": {
+   "key": "ltc_hospitals_per_100k_65",
+   "column": "ext__ltc_hospitals_per100k_65",
+   "transform": "none",
+   "label_en": "Long-term care hospitals per 100k aged 65+",
+   "label_ko": "요양병원 수(65세 이상 10만 명당)",
+   "expected_direction": "+ (사망진단 관행·사망 장소: 요양병원 사망에서 폐렴이 말기 사인으로 기록)",
+   "role": "candidate",
+   "raw_key": "ext__ltc_hospitals_per100k_65"
+  },
+  "im_specialists_per_100k": {
+   "key": "im_specialists_per_100k",
+   "column": "ext__im_specialists_per100k",
+   "transform": "none",
+   "label_en": "Internal-medicine specialists per 100k",
+   "label_ko": "내과 전문의 수(10만 명당)",
+   "expected_direction": "- (진단 강도: COPD 진단·인지 → 원사인 CLRD로 기록)",
+   "role": "candidate",
+   "raw_key": "ext__im_specialists_per100k"
+  },
+  "current_smoking_rate": {
+   "key": "current_smoking_rate",
+   "column": "kchs__DT_H_SM__SR",
+   "transform": "none",
+   "label_en": "Current smoking rate (SR %)",
+   "label_ko": "현재흡연율",
+   "expected_direction": "- (실제 역학: 흡연이 CLRD 사망을 유지)",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_SM__SR"
+  },
+  "tb_suspected_screening": {
+   "key": "tb_suspected_screening",
+   "column": "chk__질환의심_폐결핵_수검자대비비율",
+   "transform": "none",
+   "label_en": "Suspected pulmonary tuberculosis on screening chest radiography (% of screened)",
+   "label_ko": "검진 흉부촬영 폐결핵 의심 비율",
+   "expected_direction": "- (실제 역학: 결핵 후 폐손상 → 만성 기류 제한)",
+   "role": "candidate",
+   "raw_key": "chk__질환의심_폐결핵_수검자대비비율"
+  },
+  "influenza_vaccination_rate": {
+   "key": "influenza_vaccination_rate",
+   "column": "kchs__DT_INFLUENZA__SR",
+   "transform": "none",
+   "label_en": "Annual influenza vaccination rate (SR %)",
+   "label_ko": "연간 인플루엔자 예방접종률",
+   "expected_direction": "- (실제 역학: 인플루엔자 예방접종이 폐렴 사망 예방)",
+   "role": "candidate",
+   "raw_key": "kchs__DT_INFLUENZA__SR"
+  },
+  "chewing_discomfort_rate_65plus": {
+   "key": "chewing_discomfort_rate_65plus",
+   "column": "kchs__DT_H_OR_INCONV__SR",
+   "transform": "none",
+   "label_en": "Chewing discomfort rate 65+ (SR %)",
+   "label_ko": "저작불편호소율(65세 이상)",
+   "expected_direction": "+ (실제 역학: 구강·연하 기능 저하 → 흡인성 폐렴)",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_OR_INCONV__SR"
+  },
+  "basic_livelihood_rate": {
+   "key": "basic_livelihood_rate",
+   "column": "ext__basic_livelihood_rate",
+   "transform": "none",
+   "label_en": "Basic-livelihood security recipient rate (%)",
+   "label_ko": "국민기초생활보장 수급자 비율",
+   "expected_direction": "± (구조: 박탈은 두 사인 모두를 올림)",
+   "role": "candidate",
+   "raw_key": "ext__basic_livelihood_rate"
+  },
+  "walking_practice_rate": {
+   "key": "walking_practice_rate",
+   "column": "kchs__DT_H_EX_WALK__SR",
+   "transform": "none",
+   "label_en": "Walking practice rate (SR %)",
+   "label_ko": "걷기 실천율",
+   "expected_direction": "- (신체활동: 허약·근감소 → 흡인·말기 폐렴)",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_EX_WALK__SR"
+  },
+  "moderate_pa_rate": {
+   "key": "moderate_pa_rate",
+   "column": "kchs__DT_H_EX_PHY__SR",
+   "transform": "none",
+   "label_en": "Moderate-or-higher physical activity rate (SR %)",
+   "label_ko": "중강도 이상 신체활동 실천율",
+   "expected_direction": "- (신체활동: 같은 경로)",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_EX_PHY__SR"
+  },
+  "public_sports_facilities_per_100k": {
+   "key": "public_sports_facilities_per_100k",
+   "column": "fac__total",
+   "transform": "per100k",
+   "label_en": "Public sports facilities per 100k",
+   "label_ko": "공공체육시설 수(10만 명당)",
+   "expected_direction": "- (신체활동 환경)",
+   "role": "candidate",
+   "raw_key": "fac__total"
+  },
+  "obesity_rate": {
+   "key": "obesity_rate",
+   "column": "kchs__DT_H_OBE_OBE__SR",
+   "transform": "none",
+   "label_en": "Obesity rate (self-reported SR %)",
+   "label_ko": "비만율(자가보고)",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "kchs__DT_H_OBE_OBE__SR"
+  },
+  "outside_care_share": {
+   "key": "outside_care_share",
+   "column": "ext__outside_care_share",
+   "transform": "none",
+   "label_en": "Out-of-district outpatient share (%)",
+   "label_ko": "관외 외래 진료 비율",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "ext__outside_care_share"
+  },
+  "hit_and_run_rate": {
+   "key": "hit_and_run_rate",
+   "column": "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)",
+   "transform": "none",
+   "label_en": "Hit-and-run traffic accident rate (%)",
+   "label_ko": "뺑소니 교통사고율",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)"
+  },
+  "traffic_culture_index": {
+   "key": "traffic_culture_index",
+   "column": "eloc__DT_1YL20331__지수__계",
+   "transform": "none",
+   "label_en": "Traffic culture index",
+   "label_ko": "교통문화지수",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL20331__지수__계"
+  },
+  "fires_per_10000": {
+   "key": "fires_per_10000",
+   "column": "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)",
+   "transform": "none",
+   "label_en": "Fires per 10000 residents",
+   "label_ko": "주민 만명당 화재 건수",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)"
+  }
+ },
+ "rules": {
+  "waic_tol": 4.0,
+  "cpo_fail_frac": 0.05,
+  "main_set": "S1_narrative_full",
+  "vif_threshold": 10.0,
+  "vif_action": "report",
+  "multiverse_n": 200,
+  "windows": {
+   "W1_2011-15": [
+    2011,
+    2015
+   ],
+   "W2_2016-19": [
+    2016,
+    2019
+   ],
+   "W3_2020-24": [
+    2020,
+    2024
+   ]
+  },
+  "covid_post_from": 2020,
+  "years": [
+   2011,
+   2024
+  ],
+  "raw_rules": {
+   "likelihood": "forced-only 모형 WAIC 낮은 쪽(binomial/betabinomial)",
+   "credible": "95% CrI 1 제외(OR)",
+   "vif_drop": 10,
+   "multiverse_specs": 200,
+   "main_model_note": "주모형 = S1_narrative_full(가설 11 + 강제 5), 이항 로짓, offset logit(p0). M2 = M1 + 공간 구조 지역 기울기(이동 속도, 주결과). M3 = M1 + 기준선(2011-13) 가설 변수 × 시간. 세트를 다시 바꾸지 않음. VIF>10 유지·보고."
+  }
+ },
+ "note": "Outcome: pneumonia (J12-J18) deaths out of pneumonia plus chronic lower respiratory disease (J40-J47) deaths, offset by the age-expected composition. Characteristics: certification practice (ill-defined cause share, long-term care hospitals, internal medicine specialists), disease epidemiology (current smoking, suspected tuberculosis, influenza vaccination, chewing discomfort), deprivation (basic livelihood recipients) and physical activity (walking, moderate physical activity, public sports facilities); five forced controls; negative control exposures hit-and-run crashes, traffic culture index and fires.",
+ "source_json": "sets_RESP_std3.json",
+ "suffix": "_std3",
+ "offset_E_column": "E_std2",
+ "offset_E_file": "PNEU_Estd2.csv",
+ "offset_E_sensitivity_column": null,
+ "offset_E_label": "age-structure expected pneumonia share p0 = E_P/(E_P+E_C) from 14호·E_std2 (18 bands to 85+, national year-specific cause rates); binomial offset = logit(p0) — 80 builder carries E_P only",
+ "sets_after_vif": {
+  "S1_narrative_full": [
+   "ill_defined_death_share",
+   "ltc_hospitals_per_100k_65",
+   "im_specialists_per_100k",
+   "current_smoking_rate",
+   "tb_suspected_screening",
+   "influenza_vaccination_rate",
+   "chewing_discomfort_rate_65plus",
+   "basic_livelihood_rate",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k"
+  ],
+  "S2_certification": [
+   "ill_defined_death_share",
+   "ltc_hospitals_per_100k_65",
+   "im_specialists_per_100k"
+  ],
+  "S3_epidemiology": [
+   "current_smoking_rate",
+   "tb_suspected_screening",
+   "influenza_vaccination_rate",
+   "chewing_discomfort_rate_65plus",
+   "basic_livelihood_rate"
+  ],
+  "S4_activity": [
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k"
+  ],
+  "S1b_obesity_sensitivity": [
+   "ill_defined_death_share",
+   "ltc_hospitals_per_100k_65",
+   "im_specialists_per_100k",
+   "current_smoking_rate",
+   "tb_suspected_screening",
+   "influenza_vaccination_rate",
+   "chewing_discomfort_rate_65plus",
+   "basic_livelihood_rate",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "obesity_rate"
+  ]
+ }
+}
